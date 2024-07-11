@@ -41,7 +41,7 @@ const MobileSidebar = () => {
           <Link to={"/"} className='hover:bg-slate-300 p-1 rounded-lg transition-colors'>
             <Home size={24} className='cursor-pointer'/>
           </Link>
-          <Link to={"/favourite"} className='p-1 hover:bg-slate-300 p-1 rounded-lg transition-colors'>
+          <Link to={"/favourite"} className='p-1 hover:bg-slate-300 rounded-lg transition-colors'>
             <Heart size={24} className='cursor-pointer'/>
           </Link>
        </div>
